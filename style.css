@@ -1,0 +1,192 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    background-color:darkgray;
+}
+
+.line {
+    height: 6px;
+    background-color: lightblue;
+    width: 70px;
+    margin: 8px auto;
+    color: lawngreen;
+    outline-color: aqua;    
+}
+.lline {
+    height: 15px;
+    background-color:teal;
+    width: px;
+    margin: 8px auto;
+}
+#Welcome {
+    
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+ background: url(yes.jpg) no-repeat center center fixed;
+background-size:  cover; text-shadow: 2px 1px 0 rgba(64,143,195,0.5); text-align: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    z-index: 9;
+}
+
+#ParalaxInner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: inherit;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#name {
+    font-family: cursive;
+    font-size: 30px;
+    font-family: 'Squada One', cursive;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.menu {
+    list-style: none;
+    font-family:fantasy;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;    
+}
+.links:hover{
+    background-color:lightgreen;
+border-radius:25px
+}
+a {
+    text-decoration: none;
+}
+.article:hover{
+    color: crimson;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#Contact {
+    background-color: #82929e;
+}
+
+.contact1 a {
+    color: white;
+}
+
+#Contact iframe {
+    width: 100%;
+}
+.profile {
+    border-radius: 50%;
+    width: 190px;
+    padding-top: 30px;
+}
+#M1 {
+    color:#62ff00;
+    border-style: ridge;
+    border-top-color: #ff003c;
+    border-bottom-color: aquamarine;
+}
+
+#Header1{
+    font-family: sans-serif;
+    color:darkblue;
+    border-style: dashed;
+    border-bottom-color: firebrick;
+    border-top-color: chartreuse;
+}
+#Header2 {
+    font-family: monospace;
+    color:darkkhaki;
+    border-style: groove;
+    border-bottom-color: indigo;
+    border-top-color: crimson;
+}
+#Para {
+    font-family:cursive;
+    color:blueviolet;
+    border-style: double;
+    border-bottom-color: black;
+    border-top-color: white;
+}
+#vid {
+    font-family:inherit;
+    color:fuchsia;
+    border-style:outset;
+    border-bottom-color: blue;
+    border-top-color: red;
+}
+#art {
+    font-family:serif;
+    color:gold;
+    border-style: dotted;
+    border-bottom-color: darkred;
+    border-top-color:greenyellow;
+}
+#myCarousel{
+    background-color: blue;
+}
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+color: white;
+    font-size: 20px;
+}
+
+
+
+
